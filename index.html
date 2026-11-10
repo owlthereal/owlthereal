@@ -2,22 +2,34 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="google-site-verification" content="mUjrkYARbmj92GzuDT1JHs7Z68KW2FCbd72ZlvTKgC8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#090909">
-<meta name="description" content="OWL — thoughtful websites for ambitious businesses.">
-<title>OWL — Digital Studio</title>
+<meta name="description" content="OWL is an independent digital studio creating thoughtful, responsive websites for ambitious businesses in Morocco and worldwide.">
+<meta name="robots" content="index,follow">
+<meta name="author" content="OWL Digital Studio">
+<meta property="og:type" content="website">
+<meta property="og:title" content="OWL — Digital experiences with purpose">
+<meta property="og:description" content="Thoughtful websites that make your business easier to discover, trust and choose.">
+<meta property="og:url" content="https://owlthereal.github.io/owlthereal/">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://owlthereal.github.io/owlthereal/">
+<title>OWL — Digital Studio | Websites with purpose</title>
 <style>
 :root{--bg:#090909;--gold:#c9a45c;--gold2:#f0d79c;--text:#f4f0e8;--muted:#aaa49a;--line:rgba(201,164,92,.22);--glass:rgba(255,255,255,.045);--glass2:rgba(255,255,255,.075);--ease:cubic-bezier(.16,1,.3,1);--r:30px}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}
 body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;overflow-x:hidden;
-background-image:radial-gradient(ellipse 60% 50% at 78% 8%,rgba(201,164,92,.16),transparent 60%),radial-gradient(ellipse 50% 40% at 5% 55%,rgba(181,137,57,.09),transparent 60%),radial-gradient(ellipse 50% 40% at 95% 95%,rgba(201,164,92,.08),transparent 60%);background-attachment:scroll}
+background-image:radial-gradient(ellipse 60% 50% at 78% 8%,rgba(201,164,92,.16),transparent 60%),radial-gradient(ellipse 50% 40% at 5% 55%,rgba(181,137,57,.09),transparent 60%),radial-gradient(ellipse 50% 40% at 95% 95%,rgba(201,164,92,.08),transparent 60%);background-attachment:fixed}
 a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}
 ::selection{background:rgba(201,164,92,.3)}
 .serif{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.04em}
+.skip-link{position:fixed;top:12px;left:12px;z-index:10000;padding:12px 18px;border-radius:999px;background:var(--gold2);color:#090909;transform:translateY(-160%);transition:transform .25s}
+.skip-link:focus{transform:translateY(0)}
+:focus-visible{outline:2px solid var(--gold2);outline-offset:4px}
+::selection{color:#090909}
+
 .gold{color:var(--gold2)}
 .eyebrow{font-size:.68rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);font-weight:700}
-.glass{background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.025));border:1px solid rgba(201,164,92,.18);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 10px 28px rgba(0,0,0,.24),inset 0 1px 0 rgba(255,255,255,.06)}
+.glass{background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.025));border:1px solid rgba(201,164,92,.18);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);box-shadow:0 20px 60px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.07)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:14px 26px;border-radius:999px;border:1px solid var(--gold);color:var(--gold2);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;background:transparent;cursor:pointer;transition:.35s var(--ease)}
 .btn:hover{background:var(--gold);color:#0b0a08;transform:translateY(-2px)}
 .btn.primary{background:linear-gradient(135deg,#e5c477,#b5893a);color:#0a0907;border-color:transparent;box-shadow:0 10px 30px rgba(201,164,92,.25)}
@@ -68,7 +80,7 @@ h2.title{font-size:clamp(2.2rem,4.6vw,3.9rem);line-height:1.04;margin:14px 0 0}
 .visual{position:relative;border-radius:44px;aspect-ratio:1/1.02;overflow:hidden;display:grid;place-items:center;background:radial-gradient(circle at 50% 45%,#1d1810,#0a0907 70%)}
 .visual:before{content:"";position:absolute;width:78%;aspect-ratio:1;border:1px dashed rgba(201,164,92,.35);border-radius:50%;animation:spin 60s linear infinite}
 .visual:after{content:"";position:absolute;width:98%;aspect-ratio:1;border:1px solid rgba(201,164,92,.12);border-radius:50%}
-.visual img{width:88%;max-width:none;position:relative;mix-blend-mode:lighten;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent),linear-gradient(180deg,transparent,#000 7%,#000 93%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent),linear-gradient(180deg,transparent,#000 7%,#000 93%,transparent);mask-composite:intersect;filter:drop-shadow(0 0 18px rgba(201,164,92,.24));animation:float 6s ease-in-out infinite}
+.visual img{width:88%;max-width:none;position:relative;mix-blend-mode:lighten;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent),linear-gradient(180deg,transparent,#000 7%,#000 93%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent),linear-gradient(180deg,transparent,#000 7%,#000 93%,transparent);mask-composite:intersect;filter:drop-shadow(0 0 40px rgba(201,164,92,.35));animation:float 6s ease-in-out infinite}
 .chip{position:absolute;padding:10px 18px;border-radius:999px;font-size:.72rem;letter-spacing:.06em;color:var(--gold2);display:flex;align-items:center;gap:8px;z-index:2}
 .chip i{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold)}
 .chip.c1{top:9%;left:7%;animation:float 7s ease-in-out infinite}
@@ -145,6 +157,16 @@ h2.title{font-size:clamp(2.2rem,4.6vw,3.9rem);line-height:1.04;margin:14px 0 0}
 .band h2{position:relative;font-size:clamp(2.2rem,5vw,4.2rem);line-height:1.02;margin:16px auto 28px;max-width:800px}
 .band .btn{position:relative}
 
+/* ---------- FAQ ---------- */
+.faq-list{display:grid;gap:12px;max-width:900px;margin:42px auto 0}
+.faq-item{border-radius:22px;padding:0 24px;transition:border-color .3s}
+.faq-item[open]{border-color:rgba(201,164,92,.55)}
+.faq-item summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:22px 0;font:400 1.15rem Georgia,serif;color:var(--text)}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary span{color:var(--gold2);font:400 1.4rem system-ui;transition:transform .3s}
+.faq-item[open] summary span{transform:rotate(45deg)}
+.faq-item p{margin:0;padding:0 36px 22px 0;color:var(--muted);font-size:.9rem;max-width:720px}
+@media(max-width:640px){.faq-item{padding:0 18px}.faq-item summary{font-size:1rem;padding:18px 0}}
 /* ---------- CONTACT ---------- */
 .contact-wrap{max-width:780px;margin:40px auto 0;padding:36px;border-radius:40px}
 .form{display:grid;gap:14px}
@@ -202,12 +224,12 @@ footer a{color:var(--gold)}
  .bento,.timeline,.why-grid{grid-template-columns:1fr}.band{padding:50px 22px}
 }
 /* ================= MOTION PACK ================= */
-#fx{display:none}
-.orb{position:fixed;border-radius:50%;filter:blur(48px);z-index:0;pointer-events:none}
-.o1{width:340px;height:340px;background:#c9a45c;top:-140px;right:-120px;opacity:.13;}
-.o2{width:300px;height:300px;background:#b5893a;left:-160px;top:45%;opacity:.09;}
-.o3{width:260px;height:260px;background:#f0d79c;bottom:-160px;right:18%;opacity:.07;}
-.cursor{display:none}
+#fx{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.orb{position:fixed;border-radius:50%;filter:blur(90px);z-index:0;pointer-events:none}
+.o1{width:460px;height:460px;background:#c9a45c;top:-140px;right:-120px;opacity:.2;animation:drift1 18s ease-in-out infinite;translate:0 calc(var(--sy,0)*-.12px)}
+.o2{width:380px;height:380px;background:#b5893a;left:-160px;top:45%;opacity:.14;animation:drift2 22s ease-in-out infinite;translate:0 calc(var(--sy,0)*-.2px)}
+.o3{width:340px;height:340px;background:#f0d79c;bottom:-160px;right:18%;opacity:.1;animation:drift3 26s ease-in-out infinite}
+.cursor{position:fixed;left:0;top:0;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(240,215,156,.17),transparent 65%);pointer-events:none;z-index:2;mix-blend-mode:screen;will-change:transform}
 main{position:relative;z-index:1}
 @keyframes drift1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-120px,160px) scale(1.25)}}
 @keyframes drift2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(180px,-120px) scale(1.3)}}
@@ -239,20 +261,20 @@ main{position:relative;z-index:1}
 .visual img{translate:calc(var(--px,0)*16px) calc(var(--py,0)*16px)}
 .chip.c1{translate:calc(var(--px,0)*-26px) calc(var(--py,0)*-20px)}
 .chip.c2{translate:calc(var(--px,0)*30px) calc(var(--py,0)*22px)}
-.chip i{animation:none}
+.chip i{animation:pulseGlow 2s infinite}
 
 /* continuous micro-motion */
 h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);background-size:220% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shine 4s linear infinite}
-.cta-pill .arrow,.cta-card .arrow{animation:none}
-.btn.primary{animation:none}
-.feat-ic{animation:none}
-.stats3 .ic{animation:none}
+.cta-pill .arrow,.cta-card .arrow{animation:pulseGlow 2.4s infinite}
+.btn.primary{animation:pulseGlow 2.8s infinite}
+.feat-ic{animation:float 5s ease-in-out infinite}
+.stats3 .ic{display:inline-block;animation:float 4s ease-in-out infinite}
 .stats3>div:nth-child(2) .ic{animation-delay:.6s}.stats3>div:nth-child(3) .ic{animation-delay:1.2s}
 .tile:hover .ic{animation:wobble .6s}
 .dot{animation:pulseGlow 3s infinite}
-.stepx:nth-child(2) .dot{animation:none}
-.why i{animation:none}
-.brand-mark{animation:none}
+.stepx:nth-child(2) .dot{animation-delay:.5s}.stepx:nth-child(3) .dot{animation-delay:1s}.stepx:nth-child(4) .dot{animation-delay:1.5s}
+.why i{display:inline-block;animation:spin 8s linear infinite}
+.brand-mark{animation:pulseGlow 3.4s infinite}
 
 /* buttons: ripple */
 .btn{position:relative;overflow:hidden}
@@ -266,7 +288,7 @@ h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);ba
 .tile:after{content:"";position:absolute;top:0;left:-120%;width:55%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.09),transparent);transform:skewX(-20deg);transition:left .9s var(--ease);pointer-events:none}
 .tile:hover:after{left:150%}
 .band>*{z-index:1}
-.band:after{content:"";position:absolute;inset:-60%;background:radial-gradient(circle,rgba(201,164,92,.10),transparent 65%);z-index:0;pointer-events:none}
+.band:after{content:"";position:absolute;inset:-60%;background:conic-gradient(from 0deg,transparent 0 70%,rgba(201,164,92,.22) 85%,transparent);animation:spin 14s linear infinite;z-index:0;pointer-events:none}
 
 /* reveal variants + tilt (must come last) */
 .js .rv.l{transform:translateX(-46px)}.js .rv.r{transform:translateX(46px)}.js .rv.z{transform:scale(.88) translateY(20px)}
@@ -277,8 +299,12 @@ h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);ba
 @media(hover:none){.cursor{display:none}}
 @media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}.js .rv{opacity:1;transform:none}.cursor,#fx,.orb{display:none}}
 </style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"OWL Digital Studio","url":"https://owlthereal.github.io/owlthereal/","email":"owlthereal@gmail.com","description":"Independent digital studio creating thoughtful websites for businesses."}
+</script>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 
 <div class="loader" id="loader"><div class="loader-in"><img data-logo alt="OWL"><div class="bar"><span></span></div></div></div>
 <div class="progress" id="progress"></div>
@@ -287,12 +313,12 @@ h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);ba
 <header class="top">
   <a class="brand" href="#home"><span class="brand-mark"><img data-logo alt="OWL logo"></span><span class="brand-name">OWL</span></a>
   <nav class="nav glass" id="nav">
-    <a href="#home">Home</a><a href="#services">Services</a><a href="#process">Process</a><a href="#about">About</a><a href="#contact">Contact</a>
+    <a href="#home">Home</a><a href="#services">Services</a><a href="#process">Process</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
   </nav>
   <a class="cta-pill glass" href="#contact">Start a project <span class="arrow">→</span></a>
-  <button class="burger glass" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  <button class="burger glass" id="burger" aria-label="Open navigation menu" aria-controls="drawer" aria-expanded="false">☰</button>
 </header>
-<nav class="drawer glass" id="drawer"><a href="#home">Home</a><a href="#services">Services</a><a href="#process">Process</a><a href="#about">About</a><a href="#why">Why OWL</a><a href="#contact">Contact</a></nav>
+<nav class="drawer glass" id="drawer"><a href="#home">Home</a><a href="#services">Services</a><a href="#process">Process</a><a href="#about">About</a><a href="#why">Why OWL</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
 
 <aside class="rail glass" id="rail">
   <a href="#home" data-t="Home">⌂</a>
@@ -300,10 +326,11 @@ h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);ba
   <a href="#services" data-t="Services">◈</a>
   <a href="#process" data-t="Process">◷</a>
   <a href="#why" data-t="Why OWL">♡</a>
+  <a href="#faq" data-t="FAQ">?</a>
   <a href="#contact" data-t="Contact">✉</a>
 </aside>
 
-<main>
+<main id="main-content">
 <section class="hero" id="home">
   <div class="inner" style="width:100%;position:relative">
     <div class="side-tags">Websites<br>Branding<br>Clarity<br>Timeless</div>
@@ -311,7 +338,7 @@ h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);ba
       <div>
         <div class="eyebrow">Independent digital studio — Morocco / Worldwide</div>
         <h1 class="serif" id="h1">Make your business look <em><span class="rot" id="rot">unforgettable.</span></em></h1>
-        <p class="lead">Thoughtful websites that make your business easier to discover, easier to trust and easier to choose. See clearly. Build deliberately.</p>
+        <p class="lead">We create distinctive, easy-to-use websites that help people understand your business, trust your brand and take the next step. Clear thinking. Considered design. Built around your goals.</p>
         <div class="hero-actions">
           <a class="btn primary" href="#contact">Let's build yours <span>↗</span></a>
           <a class="btn ghost" href="#services"><span class="arrow" style="width:30px;height:30px;font-size:.7rem">▶</span> Explore services</a>
@@ -356,7 +383,7 @@ h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);ba
     <div class="about-grid">
       <div class="rv">
         <p>OWL is built around one simple belief: every business deserves a digital presence that feels as professional as the work it does. We turn ideas into clean, useful websites that explain what you offer and help the right people take the next step.</p>
-        <p>The owl stands for vision, focus and intelligence. The design stays dark and refined; the work stays clear, practical and made around your goals.</p>
+        <p>The owl stands for vision, focus and intelligence. That belief shapes every detail: a distinctive visual identity, a clear user journey and practical decisions guided by your goals.</p>
       </div>
       <div class="stack">
         <div class="stat glass rv"><strong>Clarity</strong><span>Visitors understand what you do.</span></div>
@@ -382,7 +409,7 @@ h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);ba
       <article class="tile glass rv"><div class="no">08 — CONTENT</div><span class="ic">▤</span><h3>Blogs &amp; News</h3><p>Readable, structured publishing.</p></article>
       <article class="tile glass rv"><div class="no">09 — LEARNING</div><span class="ic">✎</span><h3>Education</h3><p>Courses, tutors, schools and learning projects.</p></article>
     </div>
-    <p class="note">Some projects, such as online payments, user accounts, booking automation and store management, require additional setup and are scoped separately.</p>
+    <p class="note">Every project is scoped around its real requirements. Integrations such as online payments, customer accounts, booking automation and store management may require additional tools and setup.</p>
   </div>
 </section>
 
@@ -424,9 +451,39 @@ h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);ba
   </div>
 </section>
 
+
+<section id="faq">
+  <div class="inner">
+    <div class="eyebrow">05 / Good to know</div>
+    <h2 class="title serif">A few things, <span class="gold">made clear.</span></h2>
+    <div class="faq-list">
+      <details class="faq-item glass rv">
+        <summary>How does a project with OWL begin?<span>＋</span></summary>
+        <p>Send a short description of your business and what you need. We’ll discuss the goal, agree on the scope and outline the next steps before work begins.</p>
+      </details>
+      <details class="faq-item glass rv">
+        <summary>Can you build a website if I’m not sure what I need?<span>＋</span></summary>
+        <p>Yes. Tell us what your business does and what you want visitors to do. We can help define a suitable structure and website type together.</p>
+      </details>
+      <details class="faq-item glass rv">
+        <summary>Will my website work on phones and tablets?<span>＋</span></summary>
+        <p>Responsive layouts are part of the design process. We check the experience across common screen sizes before launch.</p>
+      </details>
+      <details class="faq-item glass rv">
+        <summary>Do online payments or booking systems come included?<span>＋</span></summary>
+        <p>Features such as payment processing, customer accounts, automated bookings and store management need additional tools and setup. We’ll clarify what’s included in your project scope.</p>
+      </details>
+      <details class="faq-item glass rv">
+        <summary>How do I get a quote?<span>＋</span></summary>
+        <p>Use the project form below. Share the type of website, your goals and any important requirements. We’ll use that information to discuss a clear project scope.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
 <section id="contact">
   <div class="inner">
-    <div class="eyebrow" style="text-align:center">05 / Start a conversation</div>
+    <div class="eyebrow" style="text-align:center">06 / Start a conversation</div>
     <h2 class="title serif" style="text-align:center">Tell us about <span class="gold">your project.</span></h2>
     <div class="contact-wrap glass">
       <form class="form" id="form">
@@ -441,7 +498,7 @@ h2.title .gold{background:linear-gradient(100deg,#c9a45c,#fff1c7 50%,#c9a45c);ba
         <div class="field"><label for="goal">What should the website help you achieve?</label><textarea id="goal" name="goal" placeholder="Tell us about your idea, your customers and what you want the website to do."></textarea></div>
         <div class="actions"><button class="btn primary" type="submit">Send on WhatsApp ↗</button><button class="btn ghost" type="button" id="emailBtn">Send by email</button></div>
         <div class="status" id="status" role="status" aria-live="polite"></div>
-        <p class="note">Pressing send opens WhatsApp with your message ready. Nothing is stored on this website.</p>
+        <p class="note">Your message is prepared in WhatsApp or your email app. This website does not store form submissions.</p>
       </form>
     </div>
   </div>
@@ -458,9 +515,9 @@ const ic=document.createElement('link');ic.rel='icon';ic.href=LOGO;document.head
 // loader
 const loader=document.getElementById('loader');
 const t0=Date.now();let gone=false;
-function hide(){if(gone)return;gone=true;setTimeout(()=>{loader.classList.add('out');setTimeout(()=>loader.remove(),1050)},Math.max(0,1800-(Date.now()-t0)))}
+function hide(){if(gone)return;gone=true;setTimeout(()=>{loader.classList.add('out');setTimeout(()=>loader.remove(),1050)},Math.max(0,850-(Date.now()-t0)))}
 if(document.readyState==='complete')hide();else addEventListener('load',hide,{once:true});
-setTimeout(hide,5000);
+setTimeout(hide,2500);
 
 // marquee
 const words=['Business Websites','Landing Pages','Portfolios','Online Stores','Restaurant Sites','Booking Sites','Real Estate','Blogs','Education'];
@@ -510,19 +567,21 @@ if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
 // progress + active links
 const prog=document.getElementById('progress');
 addEventListener('scroll',()=>{const m=document.documentElement.scrollHeight-innerHeight;prog.style.setProperty('--p',m>0?(scrollY/m).toFixed(4):0)},{passive:true});
-const links=[...document.querySelectorAll('#nav a,#rail a')];
+const links=[...document.querySelectorAll('#nav a,#rail a,#drawer a')];
 const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('is-active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-40% 0px -50% 0px'});
-['home','about','services','process','why','contact'].forEach(id=>{const el=document.getElementById(id);if(el)so.observe(el)});
+['home','about','services','process','why','faq','contact'].forEach(id=>{const el=document.getElementById(id);if(el)so.observe(el)});
 
-// Tile pointer glow disabled to reduce per-frame work.
+// tile glow
+document.querySelectorAll('.tile').forEach(t=>t.addEventListener('pointermove',e=>{const r=t.getBoundingClientRect();t.style.setProperty('--x',e.clientX-r.left+'px');t.style.setProperty('--y',e.clientY-r.top+'px')}));
+
 // mobile menu
 const burger=document.getElementById('burger'),drawer=document.getElementById('drawer');
-burger.addEventListener('click',()=>{const o=drawer.classList.toggle('open');burger.setAttribute('aria-expanded',String(o))});
-drawer.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{drawer.classList.remove('open');burger.setAttribute('aria-expanded','false')}));
+burger.addEventListener('click',()=>{const o=drawer.classList.toggle('open');burger.setAttribute('aria-expanded',String(o));burger.setAttribute('aria-label',o?'Close navigation menu':'Open navigation menu')});
+drawer.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{drawer.classList.remove('open');burger.setAttribute('aria-expanded','false');burger.setAttribute('aria-label','Open navigation menu')}));
 document.getElementById('year').textContent=new Date().getFullYear();
 
 /* ================= MOTION PACK JS ================= */
-if(!RM){
+if(!RM && matchMedia('(pointer:fine)').matches){
 // 1) hero headline: split into words + rotating last word
 const h1=document.getElementById('h1');let wi=0;
 [...h1.childNodes].forEach(n=>{
@@ -552,12 +611,44 @@ setTimeout(function loop(){
   };
 },5400);
 
-// 2) Keep interactions lightweight; avoid continuous pointer/canvas rendering.
-// 3) Particle canvas and cursor-follow animation intentionally disabled for smoother scrolling.
+// 2) cursor glow + mouse parallax vars
+const cur=document.getElementById('cursor');
+let mx=innerWidth/2,my=innerHeight/2,gx=mx,gy=my;
+addEventListener('pointermove',e=>{
+  mx=e.clientX;my=e.clientY;
+  document.documentElement.style.setProperty('--px',((mx/innerWidth-.5)*2).toFixed(3));
+  document.documentElement.style.setProperty('--py',((my/innerHeight-.5)*2).toFixed(3));
+},{passive:true});
+(function follow(){gx+=(mx-gx)*.12;gy+=(my-gy)*.12;cur.style.transform=`translate(${gx-180}px,${gy-180}px)`;requestAnimationFrame(follow)})();
+addEventListener('scroll',()=>document.documentElement.style.setProperty('--sy',scrollY),{passive:true});
 
-// 4) 3D tilt on cards (disabled for performance)
-if(false){
+// 3) golden particles with connecting lines
+const cv=document.getElementById('fx'),cx=cv.getContext('2d');
+if(!cx){document.getElementById('fx').hidden=true;}
+let W,H,P=[];const dpr=Math.min(devicePixelRatio||1,2);
+function size(){W=innerWidth;H=innerHeight;cv.width=W*dpr;cv.height=H*dpr;cx.setTransform(dpr,0,0,dpr,0,0);
+  const n=W<700?18:48;P=Array.from({length:n},()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.8+.4,vx:(Math.random()-.5)*.35,vy:-Math.random()*.45-.08,a:Math.random()*6.28,s:Math.random()*.03+.01}))}
+if(cx){size();addEventListener('resize',size);}
+(function draw(){
+  if(!cx)return;
+  if(document.hidden){requestAnimationFrame(draw);return}
+  cx.clearRect(0,0,W,H);
+  for(let i=0;i<P.length;i++){
+    const p=P[i];p.x+=p.vx;p.y+=p.vy;p.a+=p.s;
+    if(p.y<-10){p.y=H+10;p.x=Math.random()*W}if(p.x<-10)p.x=W+10;if(p.x>W+10)p.x=-10;
+    const dx=mx-p.x,dy=my-p.y,d=Math.hypot(dx,dy);
+    if(d>0&&d<160){p.x-=dx/d*.6;p.y-=dy/d*.6}
+    const al=.25+Math.sin(p.a)*.25+.15;
+    cx.beginPath();cx.arc(p.x,p.y,p.r,0,6.283);cx.fillStyle=`rgba(240,215,156,${al})`;cx.shadowBlur=8;cx.shadowColor='rgba(201,164,92,.9)';cx.fill();
+    cx.shadowBlur=0;
+    for(let j=i+1;j<P.length;j++){const q=P[j],dd=Math.hypot(p.x-q.x,p.y-q.y);
+      if(dd<110){cx.strokeStyle=`rgba(201,164,92,${(1-dd/110)*.18})`;cx.lineWidth=.6;cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(q.x,q.y);cx.stroke()}}
+    if(d<190){cx.strokeStyle=`rgba(240,215,156,${(1-d/190)*.35})`;cx.lineWidth=.7;cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(mx,my);cx.stroke()}
+  }
+  requestAnimationFrame(draw);
+})();
 
+// 4) 3D tilt on cards
 document.querySelectorAll('.tile,.stepx,.why,.stat,.feat,.stats3,.cta-card,.visual').forEach(el=>{
   el.classList.add('tilt');
   el.addEventListener('pointermove',e=>{
@@ -571,10 +662,7 @@ document.querySelectorAll('.tile,.stepx,.why,.stat,.feat,.stats3,.cta-card,.visu
   });
 });
 
-}
-
-// 5) magnetic buttons + ripple (disabled: avoids pointer-driven layout work)
-if(false){
+// 5) magnetic buttons + ripple
 document.querySelectorAll('.btn,.cta-pill,.rail a,.ctrl button,.burger').forEach(el=>{
   el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();
     el.style.transform=`translate(${((e.clientX-r.left-r.width/2)*.28).toFixed(1)}px,${((e.clientY-r.top-r.height/2)*.38).toFixed(1)}px)`});
@@ -584,8 +672,6 @@ document.querySelectorAll('.btn').forEach(b=>b.addEventListener('click',e=>{
   const r=b.getBoundingClientRect(),s=document.createElement('span');s.className='ripple';
   s.style.left=(e.clientX-r.left)+'px';s.style.top=(e.clientY-r.top)+'px';b.appendChild(s);setTimeout(()=>s.remove(),700);
 }));
-
-}
 
 // 6) animated counters
 const co=new IntersectionObserver(es=>es.forEach(e=>{
@@ -615,6 +701,7 @@ form.addEventListener('submit',async e=>{
   try{await navigator.clipboard.writeText(m);status.textContent='Message copied. Paste it into your message to OWL.'}catch(_){window.prompt('Copy your project brief:',m)}
 });
 emailBtn.addEventListener('click',()=>{
+  if(!CONTACT.email)return;
   if(!form.reportValidity())return;
   location.href='mailto:'+CONTACT.email+'?subject='+encodeURIComponent('New request by '+new FormData(form).get('name'))+'&body='+encodeURIComponent(msg());
   status.textContent='Opening your email app…';
@@ -622,21 +709,3 @@ emailBtn.addEventListener('click',()=>{
 </script>
 </body>
 </html>
-
-<style>
-/* Performance pass: preserve the visual identity while reducing GPU-heavy motion. */
-@media (max-width: 900px), (prefers-reduced-motion: reduce) {
-  .orb, .visual:before, .visual img, .chip, .track, .track.t2,
-  .brand-name, .rot, .pulse, .hero h1 .w>span, .hero .eyebrow,
-  .hero p.lead, .hero-actions, .hero .visual, .top, .rail,
-  .bar span, .loader-in img, .band:after {
-    animation: none !important;
-  }
-}
-@media (max-width: 900px) {
-  .glass { backdrop-filter: none; -webkit-backdrop-filter: none; }
-}
-@media (hover: none), (pointer: coarse) {
-  .tile:after { display: none; }
-}
-</style>
